@@ -1,7 +1,7 @@
 package br.com.merlofd.dinjection;
 
 public class app {
-    public void main (String Args[]){
+    public static void main (String[] Args){
         PayService ps = new PayService(new MGDeductionService());
 
         double tax = ps.tax(1000.00);
